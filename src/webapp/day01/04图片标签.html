@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    src:路径
+        1.相对路径：访问站内资源时使用
+            - 图片和页面同级目录：直接写图片名
+            - 图片在页面的上级目录：../图片名
+            - 图片在页面的下级目录:文件名/图片名
+        2.绝对路径：访问站外资源时使用,称为图片盗链
+        好处：节省自己网址资源
+        坏处：有可能找不到图片
+-->
+
+<!--width宽度  两种赋值方式：1.像素 2.百分比
+如果只设置宽度  高度会等比例缩放-->
+<img src="a.jpg" width="20%" title="这就是范总" alt="">
+<!--alt图片不能正常显示时显示的文本-->
+<img src="../12421421.jpg" alt="这就是妇联">
+<img src="abc/3.jpg" width="200" height="200" alt="">
+<img src="http://cdn.tmooc.cn/bsfile//courseImg///79f8d9bcb6394c1580bc299a19fc78b4.jpg" alt="">
+</body>
+</html>
