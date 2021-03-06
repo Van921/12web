@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body>div{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            overflow: hidden;
+        }
+        div>div{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin-left: 50px;
+            /*如果元素上边缘和上级元素上边缘重叠  给元素添加上外边距会出现粘连问题
+            给上级元素添加overflow:hidden解决*/
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div>
+    </div>
+</div>
+</body>
+</html>

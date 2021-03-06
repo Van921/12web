@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮" onclick="fn1()">
+</body>
+<script>
+    function fn1() {
+        alert("我是fn1")
+    }
+    // fn1();
+    function fn2(name,age) {
+        alert(name+"："+age)
+    }
+    // fn2("蒋依依",20);
+    function fn3() {
+        return"我是返回值"
+    }
+    // let info = fn3();
+    // alert(info);
+    function fn4(x,y) {
+        return x*y;
+    }
+    // let result = fn4(4,5);
+    // alert(result);
+    let fn5 = function (name,age) {
+        alert(name+":"+age);
+    }
+    // fn5("刘备",40);
+    let fn6 = new Function("name","age","alert(name+':'+age)")
+        // fn6("毛毛",50);
+
+</script>
+
+</html>

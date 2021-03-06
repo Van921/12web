@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="i1" placeholder="请输入一个数字">
+<input type="button" value="平方" onclick="myfn()">
+<div id="d1">结果:</div>
+<script>
+    function myfn() {
+        let i = document.getElementById("i1");
+        let d = document.getElementById("d1");
+        //判断输入的内容是否是数值
+        if (isNaN(i.value)){
+            d.innerText="输入错误！";
+        }else {
+            //字符串进行减乘除运算时会自动转成数值 加法运算为拼接
+            // d.innerText = "结果:"+ i.value+i.value;
+            //将字符串转成数值两种方式：1.让字符串*1  2.parseInt()
+            // d.innerText = "结果"+(i.value*1+i.value*1);
+            d.innerText = "结果:"+(parseInt(i.value)+parseInt(i.value));
+        }
+
+
+
+    }
+</script>
+</body>
+</html>

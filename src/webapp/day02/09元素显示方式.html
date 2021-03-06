@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+        }
+        span{
+            /*行内元素不能修改宽高*/
+            display: inline-block;/*如果非要改宽高要修改显示方式为块级或行内块*/
+            width: 100px;
+            height: 100px;
+
+            border: 1px solid blue;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        a{
+            background-color: red;
+            width: 100px;
+            height: 40px;
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+<a href="">超链接</a>
+<div>div1</div><div>div2</div><div>div3</div>
+<span>span1</span><span>span2</span><span>span3</span>
+<img src="s1.jpg" alt="">
+<img src="s1.jpg" alt="">
+<img src="s1.jpg" alt="">
+</body>
+</html>

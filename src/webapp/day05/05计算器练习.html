@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="i1">
+<input type="text" id="i2">
+<input type="button" value="加" onclick="myfn(1)">
+<input type="button" value="减" onclick="myfn(2)">
+<input type="button" value="乘" onclick="myfn(3)">
+<input type="button" value="除" onclick="myfn(4)">
+<div id="d1">结果:</div>
+<script>
+    function myfn(x) {
+        if(isNaN(i1.value) || isNaN(i2.value)){
+            di.innerText="输入错误！"
+            return;
+        }
+        switch (x) {
+            case 1:
+                d1.innerText = "结果:"+(i1.value*1+i2.value*1);
+                break;
+            case 2:
+                d1.innerText = "结果:"+(i1.value*1-i2.value*1);
+                break;
+            case 3:
+                d1.innerText = "结果:"+i1.value*i2.value;
+                break;
+            case 4:
+                d1.innerText = "结果:"+i1.value/i2.value;
+                break;
+        }
+    //     if (isNaN(i1.value && i2.value)){
+    //         d1.innerText="输入错误！";
+    //     }else {
+    //         d1.innerText = "结果："+(parseInt(i1.value)+parseInt(i2.value));
+    //     }
+    // }
+    // function myfn2() {
+    //     if (isNaN(i1.value && i2.value)){
+    //         d1.innerText="输入错误！";
+    //     }else {
+    //         d1.innerText = "结果："+i1.value-i2.value;
+    //     }
+    // }
+    // function myfn3() {
+    //     if (isNaN(i1.value && i2.value)){
+    //         d1.innerText="输入错误！";
+    //     }else {
+    //         d1.innerText = "结果："+i1.value*i2.value;
+    //     }
+    // }
+    // function myfn4() {
+    //     if (isNaN(i1.value && i2.value)){
+    //         d1.innerText="输入错误！";
+    //     }else {
+    //         d1.innerText = "结果："+i1.value/i2.value;
+    //     }
+    }
+
+
+
+
+</script>
+</body>
+</html>
