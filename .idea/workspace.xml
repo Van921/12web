@@ -1,72 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="05b29a33-2e37-437f-8a60-7ec5481feaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/01引入方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/02选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/03选择器练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/04选择器续.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/05选择器练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/06颜色和背景.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/07背景图片练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/08文本和字体相关.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/09元素显示方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/index_15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/libai.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/my.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/s1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/s3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day02/作业02.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/01外边距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/02外边距续.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/03综合练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/05边框和内边距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/06盒子模型练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/07综合练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/08相对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/09绝对定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day03/10绝对定位续.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/01绝对定位练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/02固定定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/03浮动定位.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/04浮动定位练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/05综合练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/06布局练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/07溢出设置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/08垂直对齐方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/09显示层级.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day04/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/01引入方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/02方法声明.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/03页面相关.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/04平方练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/05计算器练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/06猜数字.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/07图片练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/08帅哥美女练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/09定时器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day05/pra.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day02/作业01.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day02/作业01.html" afterDir="false" />
+    <list default="true" id="05b29a33-2e37-437f-8a60-7ec5481feaa3" name="Default Changelist" comment="0306">
+      <change afterPath="$PROJECT_DIR$/src/webapp/practice/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/practice/pratice0306.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/practice/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/practice/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/day02/01引入方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day02/01引入方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/day02/04选择器续.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day02/04选择器续.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/day03/10绝对定位续.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day03/10绝对定位续.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/day04/08垂直对齐方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day04/08垂直对齐方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/day04/09显示层级.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day04/09显示层级.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,13 +45,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\12web\src\webapp\practice" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,8 +70,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615034966057</updated>
-      <workItem from="1615034968365" duration="333000" />
+      <workItem from="1615034968365" duration="7729000" />
+      <workItem from="1615093566087" duration="19996000" />
     </task>
+    <task id="LOCAL-00001" summary="0306">
+      <created>1615035320998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615035320998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +96,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0306" />
+    <option name="LAST_COMMIT_MESSAGE" value="0306" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="700" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615035686202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615035686202" />
+    <state x="619" y="442" key="FileChooserDialogImpl" timestamp="1615100959678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="442" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615100959678" />
+    <state x="2479" y="290" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615035280910" />
+    <state x="600" y="229" key="NewModule_or_Project.wizard" timestamp="1615097693637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="229" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615097693637" />
+    <state x="2472" y="255" key="Vcs.Push.Dialog.v2" timestamp="1615035355517">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615035355517" />
+    <state x="664" y="145" width="592" height="750" key="find.popup" timestamp="1615118651635">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="145" width="592" height="750" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615118651635" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615116995586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615116995586" />
   </component>
 </project>
