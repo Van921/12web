@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="按钮1" onclick="fn1()">
+<input type="button" value="按钮2" id="b1">
+<script>
+    function fn1() {
+        alert("按钮1被狗日了！")
+    }
+    // 通过js代码添加事件，也叫动态绑定事件
+    b1.onclick = function () {
+        alert("按钮2也被狗日了！")
+    }
+</script>
+</body>
+</html>

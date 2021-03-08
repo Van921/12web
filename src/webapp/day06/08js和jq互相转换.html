@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="i1">
+<input type="button" value="js转jq" id="b1">
+<input type="button" value="jq转js" id="b2">
+<!--引入jQuery框架-->
+<script src="../js/jquery-1.4.2.js"></script>
+<script>
+    $("#b1").click(function () {
+        //得到js对象
+        let js = document.getElementById("i1");
+        //把js对象转成jq对象
+        let jq = $(js);
+        alert(jq.val())
+    })
+    $("#b2").click(function () {
+        //得到jq对象
+        let jq = $("#i1");
+        //把jq对象转换成js对象 jq对象本质是一个数组里面装的js对象
+        let js = jq[0];
+        alert(js.value);
+    })
+</script>
+</body>
+</html>
