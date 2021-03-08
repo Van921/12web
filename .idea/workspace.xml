@@ -11,16 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05b29a33-2e37-437f-8a60-7ec5481feaa3" name="Default Changelist" comment="0306">
-      <change afterPath="$PROJECT_DIR$/src/webapp/practice/my.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/practice/pratice0306.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day06/01定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day06/02鼠标事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day06/03键盘事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day06/04状态改变事件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/practice/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/practice/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day02/01引入方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day02/01引入方式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day02/04选择器续.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day02/04选择器续.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day03/10绝对定位续.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day03/10绝对定位续.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day04/08垂直对齐方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day04/08垂直对齐方式.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day04/09显示层级.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day04/09显示层级.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,6 +67,7 @@
       <updated>1615034966057</updated>
       <workItem from="1615034968365" duration="7729000" />
       <workItem from="1615093566087" duration="19996000" />
+      <workItem from="1615164230464" duration="7650000" />
     </task>
     <task id="LOCAL-00001" summary="0306">
       <created>1615035320998</created>
@@ -120,13 +116,15 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615035355517" />
-    <state x="664" y="145" width="592" height="750" key="find.popup" timestamp="1615118651635">
+    <state x="965" y="164" width="592" height="804" key="find.popup" timestamp="1615165099981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="145" width="592" height="750" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615118651635" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615116995586">
+    <state x="965" y="164" width="592" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615165099981" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615164942061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615116995586" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615164942061" />
   </component>
 </project>

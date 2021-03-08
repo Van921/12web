@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        onload = function () {
+            d1.innerText="内容被修改了";
+        }
+    </script>
+
+</head>
+<body>
+<div id="d1">测试</div>
+<!--onchange值改变事件-->
+<select id="s1" onchange="changefn">
+    <option>北京</option>
+    <option>广州</option>
+    <option>深圳</option>
+</select>
+<input type="text" id="myinput" onblur="blurfn()">
+<script>
+    function blurfn() {
+        alert(myinput.value);
+    }
+    function changefn() {
+        alert(s1.value); //弹出选中的值
+    }
+    // 窗口尺寸改变事件
+    onresize=function () {
+        console.log("尺寸改变了")
+    }
+</script>
+</body>
+</html>

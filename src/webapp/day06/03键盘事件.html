@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" onkeydown="downfn()" onkeyup="upfn()">
+<script>
+    function downfn() {
+        // event事件对象  里面装着和事件相关的内容
+        //keyCode获取按键编码
+        console.log("键盘按下"+event.keyCode);
+        if (event.keyCode==13){
+            //判断出按下的是回车  13对应的是回车按键编码
+            alert("用户按下了回车")
+        }
+    }
+    function upfn() {
+        //将按键编码转换成字符
+        let char = String.fromCharCode(event.keyCode);
+        console.log("键盘抬起"+char);
+    }
+</script>
+</body>
+</html>
