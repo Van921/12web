@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-image: url("zombies/bg1.jpg");
+            overflow: hidden;/*解决拖动条抖动问题*/
+        }
+        img{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+<h3 id="s_h3">成功数量:0</h3>
+<h3 id="f_h3">失败数量:0</h3>
+
+<script src="../js/jquery-1.4.2.js"></script>
+<script>
+    let sCount=0;
+    let fCount=0;
+
+    //得到窗口宽高   200  100
+    let w = $(window).width();
+    let h = $(window).height();
+    //修改背景图片尺寸为窗口尺寸
+    $("body").css("background-size",w+"px "+h+"px");
+
+    //窗口尺寸改变事件
+    onresize = function () {
+        //得到窗口宽高   200  100
+        w = $(window).width();
+        h = $(window).height();
+        //修改背景图片尺寸为窗口尺寸
+        $("body").css("background-size",w+"px "+h+"px");
+    }
+
+    //开启添加僵尸的定时器
+    setInterval(function () {
+        //创建僵尸图片
+        let img = $("<img src='zombies/zomb0.png'>")
+        //设置僵尸的位置
+        let top = parseInt(Math.random()*(h-50));
+        img.css({"left":w+"px","top":top+"px"})
+        //添加到页面中
+        $("body").append(img);
+        //给图片添加鼠标移入事件
+        img.mouseover(function () {
+            img.remove();//删除僵尸图片
+            //统计干掉僵尸数量
+            sCount++;
+            $("#s_h3").text("成功数量:"+sCount);
+        })
+
+    },100);
+
+    //开启移动僵尸的定时器
+    setInterval(function () {
+        //遍历每一个僵尸图片
+        $("img").each(function () {
+            //得到原来的left值    1000px
+            let left = parseInt($(this).css("left"));
+            left-=2;
+            //把变小的的left 再给到僵尸图片
+            $(this).css("left",left+"px");
+            //僵尸走到房子的位置删除之
+            if (left<=50){
+                $(this).remove();
+                //统计跑掉僵尸数量
+                fCount++;
+                $("#f_h3").text("失败数量:"+fCount);
+                if (fCount>=10){
+                    //避免显示不出10 添加定时器
+                    setTimeout(function () {
+                        alert("游戏结束!");
+                        location.reload();//刷新
+                    },50);
+
+                }
+            }
+        })
+    },10)
+
+</script>
+</body>
+</html>

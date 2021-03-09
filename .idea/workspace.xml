@@ -11,20 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05b29a33-2e37-437f-8a60-7ec5481feaa3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/webapp/day06/05事件绑定.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day06/06事件传递.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day06/07第一个jq页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/day06/08js和jq互相转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/jquery-1.4.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/js/jquery-1.4.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/selector_code/1_base_selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/selector_code/2_level_selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/selector_code/3_baseFilter_selecter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/selector_code/4_content_selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/selector_code/5_attribute_selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/webapp/selector_code/6_form_selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/01页面相关.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/02综合练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/03好友分组练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/04省市联动练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/05员工列表练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/06购物车练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/07僵尸练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/zombies/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/zombies/snow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/zombies/zomb0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/zombies/zomb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/zombies/zomb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/day07/zombies/zomb3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/practice/07僵尸练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/webapp/practice/pratice0309.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webapp/day06/04状态改变事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/day06/04状态改变事件.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,15 +60,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/webapp/day07" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Idea_workspace\12web\src\webapp\day07" />
       <recent name="E:\Idea_workspace\12web\src\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Idea_workspace\12web\src\webapp\practice" />
+      <recent name="E:\Idea_workspace\12web\src\webapp\day07" />
       <recent name="F:\12web\src\webapp\practice" />
     </key>
   </component>
@@ -79,7 +87,9 @@
       <updated>1615034966057</updated>
       <workItem from="1615034968365" duration="7729000" />
       <workItem from="1615093566087" duration="19996000" />
-      <workItem from="1615164230464" duration="19326000" />
+      <workItem from="1615164230464" duration="20347000" />
+      <workItem from="1615250465820" duration="11559000" />
+      <workItem from="1615269889661" duration="16187000" />
     </task>
     <task id="LOCAL-00001" summary="0306">
       <created>1615035320998</created>
@@ -95,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615175875168</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="0308">
+      <created>1615196052215</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615196052215</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,37 +136,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="0308" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="700" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615035686202">
+    <state x="700" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615251600117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615035686202" />
-    <state x="558" y="83" key="CommitChangelistDialog2" timestamp="1615175874059">
+    <state x="700" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615251600117" />
+    <state x="558" y="83" key="CommitChangelistDialog2" timestamp="1615196051304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="83" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615175874059" />
-    <state x="619" y="442" key="FileChooserDialogImpl" timestamp="1615100959678">
+    <state x="558" y="83" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1615196051304" />
+    <state x="619" y="437" key="FileChooserDialogImpl" timestamp="1615251662193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="619" y="442" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615100959678" />
     <state x="2479" y="290" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615035280910" />
+    <state x="619" y="437" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615251662193" />
     <state x="600" y="229" key="NewModule_or_Project.wizard" timestamp="1615097693637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="229" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615097693637" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1615175880146">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1615196056646">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1615035355517" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615175880146" />
-    <state x="965" y="164" width="592" height="804" key="find.popup" timestamp="1615165099981">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615196056646" />
+    <state x="821" y="156" width="592" height="804" key="find.popup" timestamp="1615274675817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="145" width="592" height="750" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615118651635" />
-    <state x="965" y="164" width="592" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615165099981" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615188731990">
+    <state x="821" y="156" width="592" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615274675817" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615269917856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615116995586" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615188731990" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615269917856" />
   </component>
 </project>
