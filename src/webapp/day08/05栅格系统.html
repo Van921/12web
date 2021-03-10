@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bootstrap Template</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="../bootstrap3/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../bootstrap3/font-awesome-4.7.0/css/font-awesome.css"/>
+  <style>
+    div>div{border: 1px solid red}
+  </style>
+</head>
+<body>
+<!--使用栅格系统 需要先创建行-->
+  <div class="row">
+    <div class="col-md-6">占6列</div>
+    <div class="col-md-6">占6列</div>
+  </div>
+<div class="row">
+    <div class="col-md-4">占4列</div>
+    <div class="col-md-4">占4列</div>
+    <div class="col-md-4">占4列</div>
+</div>
+<div class="row"> <!--12  2：1   12/（2+1）  4*2：4*1-->
+    <div class="col-lg-8">占8列</div>
+    <div class="col-lg-4">占4列</div>
+</div>
+<!--通过container容器实现居中-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">占6列</div>
+      <div class="col-md-6">占6列</div>
+    </div>
+</div>
+<h3>列偏移</h3>
+<div class="row">
+    <div class="col-md-8 col-md-offset-2">占8列 右偏移2列</div>
+</div>
+
+<h3>响应式栅格系统</h3>
+<div class="row">
+  <!--col-md设置中等显示器  col-sm设置平板设备   col-xs设置手机设备 -->
+  <div class="col-md-2 col-sm-3 col-xs-6">刘德华</div>
+  <div class="col-md-2 col-sm-3 col-xs-6">刘德华</div>
+  <div class="col-md-2 col-sm-3 col-xs-6">刘德华</div>
+  <div class="col-md-2 col-sm-3 col-xs-6">刘德华</div>
+  <div class="col-md-2 col-sm-3 col-xs-6">刘德华</div>
+  <div class="col-md-2 col-sm-3 col-xs-6">刘德华</div>
+</div>
+
+<div>
+    <div class="row">
+      <!--默认平板设备和手机设备  一行显示1个  img-responsive设置响应式图片-->
+      <div class="col-md-3 col-sm-6 col-lg-2"><img class="img-responsive" src="4.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 col-lg-2"><img class="img-responsive" src="4.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 col-lg-2"><img class="img-responsive" src="4.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 col-lg-2"><img class="img-responsive" src="4.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 col-lg-2"><img class="img-responsive" src="4.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 col-lg-2"><img class="img-responsive" src="4.jpg" alt=""></div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../bootstrap3/jquery.min.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/bootstrap.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/holder.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/css3-mediaqueries.js"></script>
+<script type="text/javascript" src="../bootstrap3/js/respond.min.js"></script>
+</html>

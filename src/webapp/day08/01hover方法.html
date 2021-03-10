@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        img{
+            width: 200px;
+            height: 150px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div>div1</div>
+<div>div2</div>
+<div>div3</div>
+<input type="button" value="隐藏">
+<input type="button" value="显示">
+<input type="button" value="淡出">
+<input type="button" value="淡入">
+<input type="button" value="上滑">
+<input type="button" value="下滑">
+<input type="button" value="自定义">
+<hr>
+<img src="4.jpg" alt="">
+<script src="../js/jquery-1.4.2.js"></script>
+<script>
+    //鼠标移入移出事件
+    $("div").hover(function () {//鼠标移入时触发
+        $(this).css("color","red");
+    },function () {//鼠标移出时触发
+        $(this).css("color","green")
+    })
+
+    $("input:eq(0)").click(function () {
+        $("img").hide(2000,function () {
+            alert("动画执行完了！")
+        })
+    })
+
+    $("input:eq(1)").click(function () {
+        $("img").show(2000,function () {
+            alert("显示出来了！")
+        })
+    })
+
+    $("input:eq(2)").click(function () {
+        $("img").fadeOut(2000)
+    })
+
+    $("input:eq(3)").click(function () {
+        $("img").fadeIn(2000)
+    })
+
+    $("input:eq(4)").click(function () {
+        $("img").slideUp(2000)
+    })
+
+    $("input:eq(5)").click(function () {
+        $("img").slideDown(2000)
+    })
+    $("input:eq(6)").click(function () {
+        $("img").animate({"left":"200px"},2000)
+            .animate({"top":"200px"},2000)
+            .animate({"left":"0px"},2000)
+            .animate({"top":"0px"},2000)
+            .animate({"width":"400px","height":"300px"},2000)
+            .animate({"width":"200px","height":"150px"},2000)
+    })
+</script>
+</body>
+</html>
